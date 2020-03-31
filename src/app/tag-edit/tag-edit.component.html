@@ -1,0 +1,16 @@
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+  <h2 class="sub-header">Edit Tags</h2>
+  <div class="table-responsive">
+    <form (submit)="saveTag()">
+      <div class="form-group">
+        <label for="tag">Tag Name</label>
+        <input type="text" 
+                class="form-control" 
+                id="tag" 
+                placeholder="Tag Name"
+                name="tag"
+                [(ngModel)]="tagName">
+      </div>
+      <button type="submit" class="btn btn-info">Create Tag</button>
+    </form>
+  </div>

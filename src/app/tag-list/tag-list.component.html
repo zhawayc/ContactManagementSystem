@@ -1,0 +1,24 @@
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+  <h2 class="sub-header">Tags Management</h2>
+  <div class="table-responsive">
+    <a class="btn btn-success pull-right" routerLink="/tags/new">New tag</a>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Category</th>
+          <th>Operations</th>>
+        </tr>
+      </thead>
+      <tbody *ngFor="let tag of tags">
+        <tr>
+          <td>{{tag.id}}</td>
+          <td>{{tag.title}}</td>
+          <td>
+            <a [routerLink]="['/tags/edit',tag.id]">Edit  </a>
+            <a (click)="deleteTag(tag.id,$event)">Delete</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
