@@ -1,6 +1,12 @@
 # AngularContacts
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+
+A contact management system with Angular
+
+![Alt text](https://github.com/zhawayc/ContactManagementSystem/master/src/assets/1.png)
+
+
+![Alt text](https://github.com/zhawayc/ContactManagementSystem/master/src/assets/2.png)
 
 ## Development server
 
