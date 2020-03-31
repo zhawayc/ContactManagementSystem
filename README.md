@@ -3,10 +3,10 @@
 
 A contact management system with Angular
 
-![Alt text](https://github.com/zhawayc/ContactManagementSystem/master/src/assets/1.png)
+![image](https://github.com/zhawayc/ContactManagementSystem/master/src/assets/1.png)
 
 
-![Alt text](https://github.com/zhawayc/ContactManagementSystem/master/src/assets/2.png)
+![image](https://github.com/zhawayc/ContactManagementSystem/master/src/assets/2.png)
 
 ## Development server
 
