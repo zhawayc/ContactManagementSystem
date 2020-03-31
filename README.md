@@ -1,7 +1,7 @@
 # AngularContacts
 
 
-A contact management system with Angular
+Contact management system with Angular.
 
 ![image](https://github.com/zhawayc/ContactManagementSystem/blob/master/src/assets/1.png)
 
